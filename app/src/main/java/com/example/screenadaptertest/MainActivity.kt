@@ -13,10 +13,10 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-    override fun getResources(): Resources {
-        return PTAdaptUtils(this).adaptWidth(super.getResources(), 411)
-
-    }
+//    override fun getResources(): Resources {
+//        return PTAdaptUtils(this).adaptWidth(super.getResources(), 411)
+//
+//    }
 
 //    override fun getResources(): Resources {
 //    }

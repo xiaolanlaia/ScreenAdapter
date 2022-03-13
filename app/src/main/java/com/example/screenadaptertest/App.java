@@ -17,6 +17,6 @@ public class App extends Application{
     public void onCreate() {
         super.onCreate();
         //需要传入ui设计给的大小
-        new ScreenAdaptation(this, 411).register();
+//        new ScreenAdaptation(this, 411).register();
     }
 }

@@ -5,27 +5,30 @@
     android:layout_height="match_parent"
     tools:ignore="HardcodedText"
     tools:context=".MainActivity">
+
     <FrameLayout
-        android:layout_width="205.5pt"
-        android:layout_height="56pt"
+        android:layout_width="@dimen/sw_205dp"
+        android:layout_height="@dimen/sw_56dp"
         android:background="#03DAC5">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="205.5pt*56pt"/>
+            android:text="205.5dp*56dp" />
     </FrameLayout>
+
     <FrameLayout
-        android:layout_width="205.5pt"
-        android:layout_height="56pt"
-        android:layout_marginTop="56pt"
+        android:layout_width="@dimen/sw_205dp"
+        android:layout_height="@dimen/sw_56dp"
+        android:layout_marginTop="@dimen/sw_56dp"
         android:layout_gravity="end"
         android:background="@android:color/holo_red_light">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="205.5pt*56pt"/>
+            android:text="205.5dp*56dp"/>
     </FrameLayout>
     <TextView
         android:id="@+id/screenInfo"
